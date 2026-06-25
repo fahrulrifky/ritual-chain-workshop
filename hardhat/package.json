@@ -1,14 +1,14 @@
 {
-  "name": "hardhat",
+  "name": "ritual-ai-bounty-judge-homework",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Privacy-preserving AI Bounty Judge - commit-reveal homework track",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
   "devDependencies": {
-    "@nomicfoundation/hardhat-ignition": "^3.1.7",
-    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
-    "@types/node": "^22.20.0",
-    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
-    "hardhat": "^3.9.0",
-    "typescript": "~6.0.3",
-    "viem": "^2.53.1"
+    "hardhat": "^2.22.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.10"
   }
 }
